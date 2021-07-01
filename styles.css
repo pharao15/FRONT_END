@@ -1,0 +1,90 @@
+/*  selector:pseudo-class{
+    propriedade:valor;
+} */
+
+/*a:link, */
+/*a:visited{
+    color: rgb(98, 8, 194);
+    font-weight: bold;
+} */
+
+/* a:hover, */
+/* a:active {
+    color: rgb(136, 11, 74);
+} */
+
+a:link {
+    background-color: rgb(234, 0, 255);
+    border-color: rgb(161, 17, 89);
+    color: red;
+}
+
+a: visited {
+    background-color: rgb(234, 0, 255);
+    border-color: rgb(161, 17, 89);
+    color: red;
+}
+
+a:hover{
+    background-color: gold;
+}
+
+a:active {
+    background-color: rgb(234, 0, 255);
+    border-color: rgb(161, 17, 89);
+    color: red;
+}
+
+input:focus { color: orange;
+              font-weight: bold;}
+
+input:disabled {background-color: gray;}
+
+input:target {font-weight: bold;}
+
+div::before {
+    content: "Atenção a este ponto => ";
+    color: red;
+}
+
+div::after {
+    content: " <= é como está seu codigo!!";
+    color: blue;
+}
+
+/* input é usada dentro do elemento <form> com conteudos
+   introduzidos de forma invalida
+
+input:invalid{
+    background-color: red;
+    */
+
+/* :nth-child() ... escolhe um elemento ou  mais dentro
+    de uma <ol>, por exemplo, pegando o  <li>
+
+    li:nth-child(1) {
+        border-radius: 5px;
+        background-color: red;
+    } */
+
+/* :required ... atributo booleano e aplica estilos
+    se o elemento usar <input:required>, e acaba impedindo 
+    de enviar o formulario se não for preenchido pelo
+    usuario; funciona com os type == text, search, url,
+    email, tel, password,datepickers, number, checkbox,
+    radio e file 
+    <input type="text" required>
+*/
+
+/* :valid ... no css, representa qualquer <input> ou 
+    outro elemento do <form> que validou o conteudo
+    corretamente, ajudando o usuario a confirmar seus
+    dados
+    input:valid {background-color: green;}
+*/
+
+/* :disabled... aplicada quando o elemento esta 
+    desabilitado, e assim o ususario não pode 
+    completar esse dado
+    input:disabled {background-color:gray;}
+*/
